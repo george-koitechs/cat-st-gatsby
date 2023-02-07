@@ -5,9 +5,10 @@ import React, {
 } from "react";
 import classNames from "classnames";
 
-import "./textarea.styles.scss";
 import { useAutosizeTextArea } from "./use-autosize-textarea";
 import { useCombinedRefs } from "./use-combined-refs";
+
+import "./textarea.styles.scss";
 
 interface TextAreaProps
   extends Omit<

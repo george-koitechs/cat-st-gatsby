@@ -3,9 +3,9 @@ import classNames from "classnames";
 
 // @ts-ignore
 import hero from "../../assets/images/cat-street-hero-olive_2000.webp";
+import { Button } from "../__ui-kit/button/button.component";
 
 import "./cart-ad.styles.scss";
-import { Button } from "../__ui-kit/button/button.component";
 
 export const CartAd: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
   return (

@@ -1,7 +1,8 @@
+import React from "react";
+
 import { useCartStore } from "../../../zustand/cart.store";
 import { ICartItem } from "../../../zustand/cart.types";
 import { creamItem, oliveItem } from "../../../mockItems";
-import React from "react";
 
 export const HomePage = () => {
   const openCart = useCartStore((state) => state.open);

@@ -1,10 +1,11 @@
 import React from "react";
 import { shallow } from "zustand/shallow";
 
-import "./cart-item.styles.scss";
 import { ICartItem } from "../../zustand/cart.types";
 import { useCartStore } from "../../zustand/cart.store";
 import { numberWithCommas } from "./cart-total.component";
+
+import "./cart-item.styles.scss";
 
 interface CartItemProps {
   item: ICartItem;

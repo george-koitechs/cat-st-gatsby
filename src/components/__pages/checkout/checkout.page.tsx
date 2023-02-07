@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
+
 import { Checkout } from "../../checkout/checkout.component";
 // @ts-ignore
 import logo from "../../../assets/images/catstreet-logo.svg";
+
 import "./checkout.page.styles.scss";
 
 export const CheckoutPage = () => {

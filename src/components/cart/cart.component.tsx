@@ -1,16 +1,17 @@
 import React from "react";
 import classNames from "classnames";
+import { navigate } from "gatsby";
+import { useLocation } from "@reach/router";
+import { shallow } from "zustand/shallow";
 
-import "./cart.styles.scss";
 import { CartAd } from "./cart-ad.component";
 import { CartTotal } from "./cart-total.component";
 import { Button } from "../__ui-kit/button/button.component";
 import { useCartStore } from "../../zustand/cart.store";
-import { shallow } from "zustand/shallow";
 import { CartItem } from "./cart-item.component";
 import { CartPromo } from "./cart-promo.component";
-import { navigate } from "gatsby";
-import { useLocation } from "@reach/router";
+
+import "./cart.styles.scss";
 
 export const Cart = () => {
   const location = useLocation();

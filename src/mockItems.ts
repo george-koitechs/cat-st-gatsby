@@ -2,7 +2,6 @@
 import cream from "./assets/images/cat-street-creme_2000.webp";
 // @ts-ignore
 import olive from "./assets/images/cat-street-olive_2000.webp";
-
 import { ICartItem } from "./zustand/cart.types";
 
 export const creamItem: ICartItem = {

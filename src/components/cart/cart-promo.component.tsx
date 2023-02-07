@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import "./cart-promo.styles.scss";
 import { useCartStore } from "../../zustand/cart.store";
+
+import "./cart-promo.styles.scss";
 
 export const CartPromo = () => {
   const setDiscount = useCartStore((state) => state.setDiscount);
