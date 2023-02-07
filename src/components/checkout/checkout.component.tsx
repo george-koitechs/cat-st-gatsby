@@ -14,8 +14,6 @@ import { Select } from "../__ui-kit/select/select.component";
 import { CartItem } from "../cart/cart-item.component";
 import { countries } from "../../countries";
 import { CartPromo } from "../cart/cart-promo.component";
-// @ts-ignore
-import cf from "../../assets/images/checkout-footer.png";
 
 import "./checkout.styles.scss";
 
@@ -227,7 +225,7 @@ export const Checkout = () => {
       </form>
       <footer className="footer">
         <p>Secured & Encrypted Checkout</p>
-        <img src={cf} alt="" />
+        <img src="/images/checkout-footer.png" alt="" />
       </footer>
     </>
   );

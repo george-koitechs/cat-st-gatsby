@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 
-// @ts-ignore
-import arrowDown from "../../../assets/images/arrow-down.svg";
-
 import "./select.styles.scss";
 
 interface SelectProps<T> {
@@ -50,7 +47,7 @@ export function Select<T extends Record<string, any>>({
           )}
           {value}
         </span>
-        <img src={arrowDown} alt="" className="select_arrow"></img>
+        <img src="/images/arrow-down.svg" alt="" className="select_arrow"></img>
       </div>
       {!!label && (
         <p
